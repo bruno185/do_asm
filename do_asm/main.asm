@@ -15,7 +15,7 @@ main PROC
 	mov eax,1
 	mov ebx,2
 	add eax,ebx
-	sal eax,3
+	sal eax,1
 	INVOKE ExitProcess, 0
 
 main ENDP
